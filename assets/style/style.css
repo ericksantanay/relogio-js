@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background-image: url(../image/paisagem.jpg);
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    
+}
+
+#container {
+    display: flex;
+    background-color: rgba(222, 93, 37, 0.509);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.container-horario {
+    width: 170px;
+    background-color: rgb(255, 244, 240);
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.txt {
+    font-weight: 700;
+    font-size: 20px;
+}
