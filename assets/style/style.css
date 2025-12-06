@@ -1,31 +1,42 @@
 body {
+    /*fontes */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     text-align: center;
+    /*imagem*/
     background-image: url(../image/paisagem.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*display flex etc*/
     height: 97vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#main {
-    
-}
-
 #container {
     display: flex;
-    background-color: rgba(222, 93, 37, 0.509);
-    padding: 40px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 30px 120px 30px 120px;
     border-radius: 10px;
 }
 
 .container-horario {
     width: 170px;
-    background-color: rgb(255, 244, 240);
+    background-color: rgba(255, 255, 255, 0.951);
     border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     margin-right: 30px;
 }
+
+.container-horario > #h,#m,#s {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
 
 .txt {
     font-weight: 700;
